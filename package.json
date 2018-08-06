@@ -1,0 +1,31 @@
+{
+  "name": "circle-wait",
+  "version": "1.0.0",
+  "description": "Blocks Circle CI builds until the job is near the front of the queue.",
+  "bin": {
+    "circle-wait": "circle-wait.js"
+  },
+  "scripts": {
+    "start": "node circle-wait.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icio/circle-wait.git"
+  },
+  "keywords": [
+    "circle",
+    "circleci",
+    "sequential",
+    "block",
+    "parallel"
+  ],
+  "author": "Paul Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icio/circle-wait/issues"
+  },
+  "homepage": "https://github.com/icio/circle-wait#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
