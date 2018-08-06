@@ -38,7 +38,7 @@ jobs:
       # the parallelism of.
       - run:
           name: "Wait for ci"
-          command: circle-wait
+          command: node_modules/.bin/circle-wait
 
       - run:
           name: "The thing you want to limit parallelism of"
